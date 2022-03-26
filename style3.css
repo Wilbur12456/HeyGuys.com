@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200;1,400&family=Roboto:ital,wght@0,300;0,400;1,400&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.jacob{
+    color: #FF3C78;
+    text-align: center;
+}
+
+body{
+    background: #0A0A0A;
+}
+
+.contact-us{
+    width: 250px;
+    background: #FFF;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.contact h1{
+    clear: #535274;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form, form-items{
+    width: 100px;
+}
+
+.form-items .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding-left: 15px 40px;
+    box-sizing: border-box;
+    background: #EBEEF1;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.form-items .input.message{
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    resize: none;
+}
+
+.btn{
+    background: #827FFE;
+    text-align: center;
+    color: #FFF;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn .fas{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.form-items{
+    position: relative;
+}
+
+.form-items .fas{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #9A99AA;
+}
+
+h2 {
+    font-family: 'open-sans';
+    font-weight: 900;
+    color: #FF3C78;
+    font-size: 35px;
+    letter-spacing: 1.25px;
+    margin-top: 0;
+  }
+
+  .phone {
+    padding-top: 50px;
+    align-items: right;
+  }
+
+  .h3{
+      font-family: 'open-sans';
+  }
