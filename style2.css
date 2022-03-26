@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Poppins:ital,wght@0,300;1,200;1,400&family=Roboto:ital,wght@0,300;0,400;1,400&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200;1,400&family=Roboto:ital,wght@0,300;0,400;1,400&family=Rubik:wght@300&display=swap');
+*,
+*:before
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0A0A0A;
+}
+
+nav{
+    height: 100vh;
+    width: 100vh;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'roboto';
+    color: #A0A0A0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #FF3C78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+.title{
+    font-family: open sans;
+    color: #FF3C78;
+    font-weight: normal;
+    text-align: center;
+}
+
+.paragraph{
+    font-family: open sans;
+    text-align: center;
+    color: #FF3C78;
+}
